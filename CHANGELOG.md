@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.4](https://github.com/phi-ag/ifc-guid-dotnet/compare/v0.0.3...v0.0.4) (2025-08-10)
+
+
+### Continuous Integration
+
+* provide nuget api key as cli argument ([b303ab2](https://github.com/phi-ag/ifc-guid-dotnet/commit/b303ab2fbe81d1d8bc5fa5ef95264ec62d6622b5))
+
 ## [0.0.3](https://github.com/phi-ag/ifc-guid-dotnet/compare/v0.0.2...v0.0.3) (2025-08-10)
 
 
