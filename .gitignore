@@ -22,6 +22,6 @@ bld/
 .vs/
 .nuget/
 
-.env
+sbom.cdx.json
 junit.core.xml
 junit.framework.xml

@@ -40,21 +40,21 @@ jobs:
 
       - name: Generate SBOM
         if: ${{ steps.release.outputs.release_created }}
-        uses: CycloneDX/gh-dotnet-generate-sbom@697f83d4a29dcc3fb5d78ecb1843d1ee4532a390 # v1
-        with:
-          path: ./IfcGuid.slnx
-          json: true
-          github-bearer-token: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          dotnet tool restore
+          dotnet dotnet-CycloneDX IfcGuid.slnx --json --filename sbom.cdx.json \
+            --set-version ${{ steps.release.outputs.version }} \
+            --github-bearer-token ${{ secrets.GITHUB_TOKEN }}
 
       - name: Attest package
         if: ${{ steps.release.outputs.release_created }}
         uses: actions/attest-sbom@bd218ad0dbcb3e146bd073d1d9c6d78e08aa8a0b # v2
         with:
           subject-path: src/bin/Release/*.nupkg
-          sbom-path: bom.json
+          sbom-path: sbom.cdx.json
 
       - name: Upload SBOM
         if: ${{ steps.release.outputs.release_created }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh release upload ${{ steps.release.outputs.tag_name }} bom.json
+        run: gh release upload ${{ steps.release.outputs.tag_name }} sbom.cdx.json
