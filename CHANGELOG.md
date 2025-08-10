@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.0.0](https://github.com/phi-ag/ifc-guid-dotnet/compare/v0.0.7...v1.0.0) (2025-08-10)
+
+
+### Documentation
+
+* add coverage badge to readme ([0ca4db3](https://github.com/phi-ag/ifc-guid-dotnet/commit/0ca4db39b5118247174729a5425e5b78b338e4fa))
+
+
+### Miscellaneous Chores
+
+* force release version ([3c29454](https://github.com/phi-ag/ifc-guid-dotnet/commit/3c294547c7d19cd1acfb44492aef2822384131a0))
+
+
+### Continuous Integration
+
+* collect test coverage ([9023476](https://github.com/phi-ag/ifc-guid-dotnet/commit/90234767fae4f2c937bb74c3a854e98e00a8fb50))
+
 ## [0.0.7](https://github.com/phi-ag/ifc-guid-dotnet/compare/v0.0.6...v0.0.7) (2025-08-10)
 
 
