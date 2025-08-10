@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.5](https://github.com/phi-ag/ifc-guid-dotnet/compare/v0.0.4...v0.0.5) (2025-08-10)
+
+
+### Continuous Integration
+
+* add missing attestation permission ([65ea770](https://github.com/phi-ag/ifc-guid-dotnet/commit/65ea770acd0d95abd4c668e8ac345c5d95c07551))
+
 ## [0.0.4](https://github.com/phi-ag/ifc-guid-dotnet/compare/v0.0.3...v0.0.4) (2025-08-10)
 
 
