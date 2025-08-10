@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.0.7](https://github.com/phi-ag/ifc-guid-dotnet/compare/v0.0.6...v0.0.7) (2025-08-10)
+
+
+### Documentation
+
+* add nuget badges ([a797c7e](https://github.com/phi-ag/ifc-guid-dotnet/commit/a797c7ecd83f2bdd95603b15496aa75bb8474892))
+
+
+### Continuous Integration
+
+* use cyclonedx dotnet tool ([50e29b3](https://github.com/phi-ag/ifc-guid-dotnet/commit/50e29b30b19b5494ae8beec6f34f1bfafabfe4df))
+
 ## [0.0.6](https://github.com/phi-ag/ifc-guid-dotnet/compare/v0.0.5...v0.0.6) (2025-08-10)
 
 
