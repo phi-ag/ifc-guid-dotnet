@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/phi-ag/ifc-guid-dotnet/compare/v1.0.1...v1.0.2) (2025-08-10)
+
+
+### Miscellaneous Chores
+
+* use unreachable exception for converting guid to bytes ([e2548b9](https://github.com/phi-ag/ifc-guid-dotnet/commit/e2548b93f05d42f3387a479b44e94af38a8e181a))
+
 ## [1.0.1](https://github.com/phi-ag/ifc-guid-dotnet/compare/v1.0.0...v1.0.1) (2025-08-10)
 
 
