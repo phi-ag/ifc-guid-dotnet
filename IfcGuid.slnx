@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="src/IfcGuid.csproj" />
+  <Project Path="tests/Tests.csproj" />
+</Solution>
+
