@@ -1,5 +1,10 @@
 # IfcGuid
 
+[![Version](https://img.shields.io/nuget/v/IfcGuid?style=for-the-badge&color=blue)](https://www.nuget.org/packages/IfcGuid)
+[![Downloads](https://img.shields.io/nuget/dt/IfcGuid?style=for-the-badge)](https://www.nuget.org/packages/IfcGuid)
+
+Convert [IFC GUID](https://technical.buildingsmart.org/resources/ifcimplementationguidance/ifc-guid/)
+
 ## Usage
 
     dotnet add package IfcGuid
