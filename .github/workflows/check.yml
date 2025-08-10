@@ -1,0 +1,37 @@
+name: Check
+
+on:
+  push:
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+
+      - name: Restore
+        uses: ./.github/actions/restore
+
+      - name: Setup mono
+        run: |
+          sudo apt-get update
+          sudo apt-get -y --no-install-recommends install mono-complete
+
+      - name: Audit
+        continue-on-error: true
+        run: |
+          dotnet list package --vulnerable --include-transitive | tee audit.txt
+          grep -q "following vulnerable packages" audit.txt && exit 1 || exit 0
+
+      - name: Format
+        run: |
+          dotnet format --verify-no-changes
+
+      - name: Test
+        run: |
+          dotnet test -f net9.0 --logger:"junit;LogFilePath=../junit.core.xml"
+          dotnet test -f net48 --logger:"junit;LogFilePath=../junit.framework.xml"
+
+      - name: Pack
+        run: dotnet pack
