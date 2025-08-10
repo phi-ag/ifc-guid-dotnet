@@ -1,4 +1,5 @@
 ﻿using System.Collections.Immutable;
+using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
 
@@ -36,7 +37,7 @@ public static class IfcGuid
 #if NET
         Span<byte> guid = stackalloc byte[16];
         if (!input.TryWriteBytes(guid))
-            throw new InvalidOperationException("Failed to convert GUID to bytes");
+            throw new UnreachableException("Failed to convert GUID to bytes");
 #else
         Span<byte> guid = input.ToByteArray();
 #endif
