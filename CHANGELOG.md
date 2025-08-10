@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/phi-ag/ifc-guid-dotnet/compare/v1.0.0...v1.0.1) (2025-08-10)
+
+
+### Miscellaneous Chores
+
+* **deps:** remove explicit dependency on System.Collections.Immutable ([3b463f9](https://github.com/phi-ag/ifc-guid-dotnet/commit/3b463f9aafb53d7bc838fa493ead67710b8cd3cc))
+
 ## [1.0.0](https://github.com/phi-ag/ifc-guid-dotnet/compare/v0.0.7...v1.0.0) (2025-08-10)
 
 
