@@ -2,6 +2,7 @@
 
 [![Version](https://img.shields.io/nuget/v/IfcGuid?style=for-the-badge&color=blue)](https://www.nuget.org/packages/IfcGuid)
 [![Downloads](https://img.shields.io/nuget/dt/IfcGuid?style=for-the-badge)](https://www.nuget.org/packages/IfcGuid)
+[![Coverage](https://img.shields.io/codecov/c/github/phi-ag/ifc-guid-dotnet?style=for-the-badge)](https://app.codecov.io/github/phi-ag/ifc-guid-dotnet)
 
 Convert [IFC GUID](https://technical.buildingsmart.org/resources/ifcimplementationguidance/ifc-guid/)
 
