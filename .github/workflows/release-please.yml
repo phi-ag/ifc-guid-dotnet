@@ -35,9 +35,7 @@ jobs:
 
       - name: Publish
         if: ${{ steps.release.outputs.release_created }}
-        env:
-          NuGetToken: ${{ secrets.NUGET_TOKEN }}
-        run: dotnet nuget push src/bin/Release/*.nupkg
+        run: dotnet nuget push src/bin/Release/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }}
 
       - name: SBOM
         if: ${{ steps.release.outputs.release_created }}
