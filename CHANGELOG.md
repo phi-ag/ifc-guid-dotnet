@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.0.6](https://github.com/phi-ag/ifc-guid-dotnet/compare/v0.0.5...v0.0.6) (2025-08-10)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/attest-sbom digest to bd218ad ([513f45f](https://github.com/phi-ag/ifc-guid-dotnet/commit/513f45f1cff7f808b3e5d6a85edffd8d1d2c8c37))
+* **deps:** update cyclonedx/gh-dotnet-generate-sbom digest to 697f83d ([d13bd5b](https://github.com/phi-ag/ifc-guid-dotnet/commit/d13bd5b3d416e2a8c6a210bdc73ad45cd23b8a95))
+* **deps:** update dependency nunit.analyzers to 4.10.0 ([d7483f9](https://github.com/phi-ag/ifc-guid-dotnet/commit/d7483f96c59374bb0f03f60762439cfa086c7640))
+
+
+### Continuous Integration
+
+* attach sbom to release ([8a3e668](https://github.com/phi-ag/ifc-guid-dotnet/commit/8a3e668e06c2f25c707908da039424bed0a4e169))
+
 ## [0.0.5](https://github.com/phi-ag/ifc-guid-dotnet/compare/v0.0.4...v0.0.5) (2025-08-10)
 
 
