@@ -38,7 +38,7 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
         run: dotnet nuget push src/bin/Release/*.nupkg --api-key ${{ secrets.NUGET_API_KEY }}
 
-      - name: SBOM
+      - name: Generate SBOM
         if: ${{ steps.release.outputs.release_created }}
         uses: CycloneDX/gh-dotnet-generate-sbom@c183e4ac30e5b99354cb9a98c38548e07c538346 # v1
         with:
@@ -52,3 +52,9 @@ jobs:
         with:
           subject-path: src/bin/Release/*.nupkg
           sbom-path: bom.json
+
+      - name: Upload SBOM
+        if: ${{ steps.release.outputs.release_created }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release upload ${{ steps.release.outputs.tag_name }} bom.json
