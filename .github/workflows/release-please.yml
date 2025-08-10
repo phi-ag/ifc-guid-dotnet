@@ -1,0 +1,53 @@
+name: Release Please
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  id-token: write
+  contents: write
+  issues: write
+  pull-requests: write
+
+jobs:
+  release-please:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Release Please
+        uses: googleapis/release-please-action@a02a34c4d625f9be7cb89156071d8567266a2445 # v4
+        id: release
+        with:
+          target-branch: main
+
+      - name: Checkout
+        if: ${{ steps.release.outputs.release_created }}
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
+
+      - name: Restore
+        if: ${{ steps.release.outputs.release_created }}
+        uses: ./.github/actions/restore
+
+      - name: Pack
+        if: ${{ steps.release.outputs.release_created }}
+        run: dotnet pack
+
+      - name: Publish
+        if: ${{ steps.release.outputs.release_created }}
+        env:
+          NuGetToken: ${{ secrets.NUGET_TOKEN }}
+        run: dotnet nuget push src/bin/Release/*.nupkg
+
+      - name: SBOM
+        uses: CycloneDX/gh-dotnet-generate-sbom@c183e4ac30e5b99354cb9a98c38548e07c538346 # v1
+        with:
+          path: ./IfcGuid.slnx
+          json: true
+          github-bearer-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Attest package
+        uses: actions/attest-sbom@115c3be05ff3974bcbd596578934b3f9ce39bf68 # v2
+        with:
+          subject-path: src/bin/Release/*.nupkg
+          sbom-path: bom.json
