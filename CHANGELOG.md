@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.3](https://github.com/phi-ag/ifc-guid-dotnet/compare/v0.0.2...v0.0.3) (2025-08-10)
+
+
+### Bug Fixes
+
+* set default nuget push source ([16ee43a](https://github.com/phi-ag/ifc-guid-dotnet/commit/16ee43a379a199896002dc7d593a07a02fcf57a3))
+
 ## [0.0.2](https://github.com/phi-ag/ifc-guid-dotnet/compare/v0.0.1...v0.0.2) (2025-08-10)
 
 
