@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.0.3](https://github.com/phi-ag/ifc-guid-dotnet/compare/v1.0.2...v1.0.3) (2025-09-06)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v5 ([c5653e4](https://github.com/phi-ag/ifc-guid-dotnet/commit/c5653e474d677bd354c227be137e2648b3f75673))
+* **deps:** update actions/checkout digest to 08eba0b ([794c6c3](https://github.com/phi-ag/ifc-guid-dotnet/commit/794c6c396639af1ab35cb7030e51273c4f92586a))
+* **deps:** update actions/setup-dotnet action to v5 ([1924dce](https://github.com/phi-ag/ifc-guid-dotnet/commit/1924dce0b52528bf6de39f0e531b7d5120d3deab))
+* **deps:** update codecov/codecov-action digest to 5a10915 ([63e850b](https://github.com/phi-ag/ifc-guid-dotnet/commit/63e850be1bb83414712b2d1f7a424b9286191268))
+* **deps:** update codecov/codecov-action digest to fdcc847 ([ff5b501](https://github.com/phi-ag/ifc-guid-dotnet/commit/ff5b5012b19043039758041a8ed97d791e324a33))
+* **deps:** update dependency nunit to 4.4.0 ([58f2ae9](https://github.com/phi-ag/ifc-guid-dotnet/commit/58f2ae9236c0c5b8daf73272f3a4254e735255e5))
+* **deps:** update dependency nunit3testadapter to 5.1.0 ([852a442](https://github.com/phi-ag/ifc-guid-dotnet/commit/852a442ee8ff1fb2f29f4f67044a22de682049a1))
+* **deps:** update googleapis/release-please-action digest to c2a5a2b ([e1ba3b0](https://github.com/phi-ag/ifc-guid-dotnet/commit/e1ba3b008d42d445b9ae459438bf4a78ae6725db))
+
 ## [1.0.2](https://github.com/phi-ag/ifc-guid-dotnet/compare/v1.0.1...v1.0.2) (2025-08-10)
 
 
