@@ -10,6 +10,8 @@ Convert [IFC GUID](https://technical.buildingsmart.org/resources/ifcimplementati
 
     dotnet add package IfcGuid
 
+Alternatively just copy the [source code](src/IfcGuid.cs) into your project.
+
 ### Example
 
 ```cs
