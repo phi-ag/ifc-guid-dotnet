@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/phi-ag/ifc-guid-dotnet/compare/v1.0.3...v1.0.4) (2025-10-30)
+
+
+### Continuous Integration
+
+* switch to trusted publishing ([e5da7f9](https://github.com/phi-ag/ifc-guid-dotnet/commit/e5da7f928803dc1ea3477f77f041c19e0cc9b52d))
+
 ## [1.0.3](https://github.com/phi-ag/ifc-guid-dotnet/compare/v1.0.2...v1.0.3) (2025-10-29)
 
 
