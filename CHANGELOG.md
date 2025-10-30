@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/phi-ag/ifc-guid-dotnet/compare/v1.0.4...v1.0.5) (2025-10-30)
+
+
+### Continuous Integration
+
+* store nuget user as variable to get a valid attestation url ([8521f4d](https://github.com/phi-ag/ifc-guid-dotnet/commit/8521f4df8c662245b7c8e5404875074c7948d555))
+
 ## [1.0.4](https://github.com/phi-ag/ifc-guid-dotnet/compare/v1.0.3...v1.0.4) (2025-10-30)
 
 
