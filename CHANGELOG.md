@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.6](https://github.com/phi-ag/ifc-guid-dotnet/compare/v1.0.5...v1.0.6) (2025-10-31)
+
+
+### Documentation
+
+* install by copying source code ([fbb6fc7](https://github.com/phi-ag/ifc-guid-dotnet/commit/fbb6fc7650cecdc92052090809d5ab78807eb7d1))
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency nunit.analyzers to 4.11.1 ([23c10a2](https://github.com/phi-ag/ifc-guid-dotnet/commit/23c10a2deeb05667ea7d36f68718dcbe4ee4e8df))
+
 ## [1.0.5](https://github.com/phi-ag/ifc-guid-dotnet/compare/v1.0.4...v1.0.5) (2025-10-30)
 
 
