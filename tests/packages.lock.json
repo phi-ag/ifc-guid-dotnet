@@ -139,8 +139,8 @@
       },
       "System.Collections.Immutable": {
         "type": "Transitive",
-        "resolved": "9.0.10",
-        "contentHash": "2FkVxKnJVqFtv5zGKSEu2FPqbOScpxw+CvgV0C2MYtXPrT1ZcylAdYlTj3S64iRDV7HGykvagoadUUhZN1/eQg==",
+        "resolved": "9.0.11",
+        "contentHash": "Iv7F+Ph7Dc0QFa3iwZrwcnvWesUSFgjn2CGTBi0DGE88fzjoySwIakAWWD6oD89WJ4Xrudroy7al2yxJbZ36BQ==",
         "dependencies": {
           "System.Memory": "4.5.5",
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -199,7 +199,7 @@
       "ifcguid": {
         "type": "Project",
         "dependencies": {
-          "System.Collections.Immutable": "[9.0.10, )"
+          "System.Collections.Immutable": "[9.0.11, )"
         }
       }
     },
