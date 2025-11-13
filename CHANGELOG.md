@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.0.6](https://github.com/phi-ag/ifc-guid-dotnet/compare/v1.0.5...v1.0.6) (2025-11-13)
+
+
+### Documentation
+
+* install by copying source code ([fbb6fc7](https://github.com/phi-ag/ifc-guid-dotnet/commit/fbb6fc7650cecdc92052090809d5ab78807eb7d1))
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency dotnet-sdk to v9.0.307 ([869530b](https://github.com/phi-ag/ifc-guid-dotnet/commit/869530b8a513f7abcbbc56eddc4d5175845f6a8e))
+* **deps:** update dependency microsoft.net.test.sdk to 18.0.1 ([93883b9](https://github.com/phi-ag/ifc-guid-dotnet/commit/93883b973cdbf6e85dec90e4caa0e61a2afc988b))
+* **deps:** update dependency nunit.analyzers to 4.11.1 ([23c10a2](https://github.com/phi-ag/ifc-guid-dotnet/commit/23c10a2deeb05667ea7d36f68718dcbe4ee4e8df))
+* **deps:** update dependency nunit.analyzers to 4.11.2 ([f9691bd](https://github.com/phi-ag/ifc-guid-dotnet/commit/f9691bd0916f32076e39985c2a1e49ec66cd393d))
+* **deps:** update dependency system.collections.immutable to 9.0.11 ([1ccce3e](https://github.com/phi-ag/ifc-guid-dotnet/commit/1ccce3ea07998935457bbf19bccdf524f0956904))
+* **deps:** update dotnet monorepo to v10 ([d6e8950](https://github.com/phi-ag/ifc-guid-dotnet/commit/d6e89508c61aef31563d17c06dc77d905088bc35))
+* **deps:** update fscheck to 3.3.2 ([1f70704](https://github.com/phi-ag/ifc-guid-dotnet/commit/1f707040e98fe248bedd8dfa1ab0e1c999aec85a))
+* migrate test project to net10 ([941aaff](https://github.com/phi-ag/ifc-guid-dotnet/commit/941aaffc94178bca44d6beb1a2bd33b84e80f84c))
+
 ## [1.0.5](https://github.com/phi-ag/ifc-guid-dotnet/compare/v1.0.4...v1.0.5) (2025-10-30)
 
 
