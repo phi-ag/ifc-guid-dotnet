@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.7](https://github.com/phi-ag/ifc-guid-dotnet/compare/v1.0.6...v1.0.7) (2025-11-18)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout digest to 93cb6ef ([ac0f65e](https://github.com/phi-ag/ifc-guid-dotnet/commit/ac0f65ecbc4c79487ac3c35270aac88e4c5c4483))
+
 ## [1.0.6](https://github.com/phi-ag/ifc-guid-dotnet/compare/v1.0.5...v1.0.6) (2025-11-13)
 
 
