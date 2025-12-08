@@ -23,6 +23,3 @@ bld/
 .nuget/
 
 sbom.cdx.json
-junit.core.xml
-junit.framework.xml
-TestResults/
