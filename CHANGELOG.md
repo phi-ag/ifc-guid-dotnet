@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.0.7](https://github.com/phi-ag/ifc-guid-dotnet/compare/v1.0.6...v1.0.7) (2025-12-20)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v6 ([cc4f3df](https://github.com/phi-ag/ifc-guid-dotnet/commit/cc4f3df908f604de0959f8b631fec3c75e0ca8c3))
+* **deps:** update actions/checkout digest to 8e8c483 ([9462c01](https://github.com/phi-ag/ifc-guid-dotnet/commit/9462c015dfca8d4ec576304b771438717ae6e068))
+* **deps:** update actions/checkout digest to 93cb6ef ([ac0f65e](https://github.com/phi-ag/ifc-guid-dotnet/commit/ac0f65ecbc4c79487ac3c35270aac88e4c5c4483))
+* **deps:** update actions/setup-dotnet digest to 2016bd2 ([5115d51](https://github.com/phi-ag/ifc-guid-dotnet/commit/5115d515dc56dadf02303eb0637bc57b3c8d2f2b))
+* **deps:** update codecov/codecov-action digest to 671740a ([2d9d0ca](https://github.com/phi-ag/ifc-guid-dotnet/commit/2d9d0caeff838c35d812fe5a46ea9c76ad60e41c))
+* **deps:** update codecov/test-results-action digest to 0fa95f0 ([a394f20](https://github.com/phi-ag/ifc-guid-dotnet/commit/a394f205562dfce0d3f892033f223306dba8bb34))
+* **deps:** update dependency dotnet-sdk to v10.0.101 ([f734753](https://github.com/phi-ag/ifc-guid-dotnet/commit/f734753512266d40fa87a390950db7986ed1d8cf))
+* **deps:** update dependency junitxml.testlogger to 7.1.0 ([59e5cb6](https://github.com/phi-ag/ifc-guid-dotnet/commit/59e5cb6656c68358cb41c3898e0a2937a25b9d69))
+* **deps:** update dependency nunit3testadapter to 6.0.1 ([bfb3fdb](https://github.com/phi-ag/ifc-guid-dotnet/commit/bfb3fdb5a0d4cbed11ac365b9c04ca85e0bd1c99))
+* **deps:** update dependency nunit3testadapter to v6 ([d3c9cb5](https://github.com/phi-ag/ifc-guid-dotnet/commit/d3c9cb5c3ceeb08ed6557dddc80a3dfeaf7b84b0))
+* **deps:** update dependency system.collections.immutable to 10.0.1 ([d580bfe](https://github.com/phi-ag/ifc-guid-dotnet/commit/d580bfe45d6b597dbb6c90423ae8de81150ccb85))
+
 ## [1.0.6](https://github.com/phi-ag/ifc-guid-dotnet/compare/v1.0.5...v1.0.6) (2025-11-13)
 
 
