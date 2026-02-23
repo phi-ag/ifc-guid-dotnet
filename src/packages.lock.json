@@ -8,12 +8,6 @@
         "resolved": "1.2.39",
         "contentHash": "fcFN01tDTIQqDuTwr1jUQK/geofiwjG5DycJQOnC72i1SsLAk1ELe+apBOuZ11UMQG8YKFZG1FgvjZPbqHyatg=="
       },
-      "DotNet.ReproducibleBuilds.Isolated": {
-        "type": "Direct",
-        "requested": "[1.2.39, )",
-        "resolved": "1.2.39",
-        "contentHash": "N5LaMgUe+X1fJg6VbX+bjhig9U4qV2AlA1s1KhhP9mrW64O444xSr53fsif8gdfeticVf/GrVP/LCIETcQXQlw=="
-      },
       "NETStandard.Library": {
         "type": "Direct",
         "requested": "[2.0.3, )",
@@ -70,12 +64,6 @@
         "requested": "[1.2.39, )",
         "resolved": "1.2.39",
         "contentHash": "fcFN01tDTIQqDuTwr1jUQK/geofiwjG5DycJQOnC72i1SsLAk1ELe+apBOuZ11UMQG8YKFZG1FgvjZPbqHyatg=="
-      },
-      "DotNet.ReproducibleBuilds.Isolated": {
-        "type": "Direct",
-        "requested": "[1.2.39, )",
-        "resolved": "1.2.39",
-        "contentHash": "N5LaMgUe+X1fJg6VbX+bjhig9U4qV2AlA1s1KhhP9mrW64O444xSr53fsif8gdfeticVf/GrVP/LCIETcQXQlw=="
       }
     }
   }
