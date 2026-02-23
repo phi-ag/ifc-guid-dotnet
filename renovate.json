@@ -19,6 +19,13 @@
     {
       "groupName": "fscheck",
       "matchPackageNames": ["fscheck", "fscheck.nunit"]
+    },
+    {
+      "groupName": "dotnet.reproduciblebuilds",
+      "matchPackageNames": [
+        "dotnet.reproduciblebuilds",
+        "dotnet.reproduciblebuilds.isolated"
+      ]
     }
   ]
 }
