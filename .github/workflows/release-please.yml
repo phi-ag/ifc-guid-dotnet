@@ -49,7 +49,7 @@ jobs:
         if: ${{ steps.release.outputs.release_created }}
         run: |
           dotnet tool restore
-          dotnet dotnet-CycloneDX IfcGuid.slnx --json --filename sbom.cdx.json \
+          dotnet dotnet-CycloneDX IfcGuid.slnx -F json --filename sbom.cdx.json \
             --set-version ${{ steps.release.outputs.version }} \
             --github-bearer-token ${{ secrets.GITHUB_TOKEN }}
 

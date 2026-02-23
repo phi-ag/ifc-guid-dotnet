@@ -48,3 +48,9 @@ jobs:
 
       - name: Pack
         run: dotnet pack
+
+      - name: Generate SBOM
+        run: |
+          dotnet tool restore
+          dotnet dotnet-CycloneDX IfcGuid.slnx -F json --filename sbom.cdx.json
+          jq . sbom.cdx.json
