@@ -1,5 +1,46 @@
 # Changelog
 
+## [1.0.7](https://github.com/phi-ag/ifc-guid-dotnet/compare/v1.0.6...v1.0.7) (2026-02-24)
+
+
+### Bug Fixes
+
+* correctly configure DotNet.ReproducibleBuilds.Isolated ([353e840](https://github.com/phi-ag/ifc-guid-dotnet/commit/353e840adc639593d255f3aea9071b3efb3acc00))
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v6 ([cc4f3df](https://github.com/phi-ag/ifc-guid-dotnet/commit/cc4f3df908f604de0959f8b631fec3c75e0ca8c3))
+* **deps:** update actions/checkout digest to 8e8c483 ([9462c01](https://github.com/phi-ag/ifc-guid-dotnet/commit/9462c015dfca8d4ec576304b771438717ae6e068))
+* **deps:** update actions/checkout digest to 93cb6ef ([ac0f65e](https://github.com/phi-ag/ifc-guid-dotnet/commit/ac0f65ecbc4c79487ac3c35270aac88e4c5c4483))
+* **deps:** update actions/checkout digest to de0fac2 ([792ecad](https://github.com/phi-ag/ifc-guid-dotnet/commit/792ecadcaa12d4a4f8617f6a41e35a59ff01fcb2))
+* **deps:** update actions/setup-dotnet digest to 2016bd2 ([5115d51](https://github.com/phi-ag/ifc-guid-dotnet/commit/5115d515dc56dadf02303eb0637bc57b3c8d2f2b))
+* **deps:** update actions/setup-dotnet digest to baa11fb ([d8556da](https://github.com/phi-ag/ifc-guid-dotnet/commit/d8556dab689afb90fb9b6d59e1e1e3e8dbe1e500))
+* **deps:** update codecov/codecov-action digest to 671740a ([2d9d0ca](https://github.com/phi-ag/ifc-guid-dotnet/commit/2d9d0caeff838c35d812fe5a46ea9c76ad60e41c))
+* **deps:** update codecov/test-results-action digest to 0fa95f0 ([a394f20](https://github.com/phi-ag/ifc-guid-dotnet/commit/a394f205562dfce0d3f892033f223306dba8bb34))
+* **deps:** update dependency cyclonedx to v6 ([5982b4e](https://github.com/phi-ag/ifc-guid-dotnet/commit/5982b4eae173cc4da06898c9f36ce30d2a86b77d))
+* **deps:** update dependency dotnet-sdk to v10.0.101 ([f734753](https://github.com/phi-ag/ifc-guid-dotnet/commit/f734753512266d40fa87a390950db7986ed1d8cf))
+* **deps:** update dependency dotnet-sdk to v10.0.102 ([4ba74c8](https://github.com/phi-ag/ifc-guid-dotnet/commit/4ba74c823e9ec474bc47d6c6877e18b5afbbf03b))
+* **deps:** update dependency dotnet-sdk to v10.0.103 ([d737075](https://github.com/phi-ag/ifc-guid-dotnet/commit/d737075abe1aab8dbe8bc9aebf510cff69c5562e))
+* **deps:** update dependency junitxml.testlogger to 7.1.0 ([59e5cb6](https://github.com/phi-ag/ifc-guid-dotnet/commit/59e5cb6656c68358cb41c3898e0a2937a25b9d69))
+* **deps:** update dependency junitxml.testlogger to v8 ([58f2d03](https://github.com/phi-ag/ifc-guid-dotnet/commit/58f2d0336247001fc4c4577e8bebb1bda1d4ff3c))
+* **deps:** update dependency microsoft.net.test.sdk to 18.3.0 ([b95637e](https://github.com/phi-ag/ifc-guid-dotnet/commit/b95637e657c6de5c7ba7648bdfb5e40118dde361))
+* **deps:** update dependency nunit to 4.5.0 ([e858da9](https://github.com/phi-ag/ifc-guid-dotnet/commit/e858da9513ff4677cd69bd13e720173c8284a889))
+* **deps:** update dependency nunit3testadapter to 6.0.1 ([bfb3fdb](https://github.com/phi-ag/ifc-guid-dotnet/commit/bfb3fdb5a0d4cbed11ac365b9c04ca85e0bd1c99))
+* **deps:** update dependency nunit3testadapter to 6.1.0 ([65b2efa](https://github.com/phi-ag/ifc-guid-dotnet/commit/65b2efaa803ed30635305bb2aa93b16524325860))
+* **deps:** update dependency nunit3testadapter to v6 ([d3c9cb5](https://github.com/phi-ag/ifc-guid-dotnet/commit/d3c9cb5c3ceeb08ed6557dddc80a3dfeaf7b84b0))
+* **deps:** update dependency system.collections.immutable to 10.0.1 ([d580bfe](https://github.com/phi-ag/ifc-guid-dotnet/commit/d580bfe45d6b597dbb6c90423ae8de81150ccb85))
+* **deps:** update dependency system.collections.immutable to 10.0.2 ([d549660](https://github.com/phi-ag/ifc-guid-dotnet/commit/d549660ffa13c3506811e7d8e30c4d278be7dda4))
+* **deps:** update dependency system.collections.immutable to 10.0.3 ([e5749e9](https://github.com/phi-ag/ifc-guid-dotnet/commit/e5749e938c5b15106f4deb83d88eff3c37f587a2))
+* **deps:** update dotnet.reproduciblebuilds to v2 ([c15101b](https://github.com/phi-ag/ifc-guid-dotnet/commit/c15101b70eedea1ad2cdf96c2d9496fc638289d5))
+
+
+### Continuous Integration
+
+* generate sbom in check pipeline ([2862068](https://github.com/phi-ag/ifc-guid-dotnet/commit/286206816ef17b3d7517f316eac1e53569796779))
+* **renovate:** add dotnet.reproduciblebuilds group ([e7f61b4](https://github.com/phi-ag/ifc-guid-dotnet/commit/e7f61b49febd9b559fdad28f54c462bfa82af270))
+* replace deprecated action codecov/test-results-action ([f4f2f6a](https://github.com/phi-ag/ifc-guid-dotnet/commit/f4f2f6a02ce52877ed7f4c3982182d895d769194))
+
 ## [1.0.6](https://github.com/phi-ag/ifc-guid-dotnet/compare/v1.0.5...v1.0.6) (2025-11-13)
 
 
