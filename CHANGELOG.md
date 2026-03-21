@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.8](https://github.com/phi-ag/ifc-guid-dotnet/compare/v1.0.7...v1.0.8) (2026-03-21)
+
+
+### Miscellaneous Chores
+
+* **deps:** update codecov/codecov-action digest to 1af5884 ([d61114e](https://github.com/phi-ag/ifc-guid-dotnet/commit/d61114ea5ced98f945dbb67bc9c40b4b9993c94b))
+* **deps:** update dependency cyclonedx to v6.1.0 ([419ed82](https://github.com/phi-ag/ifc-guid-dotnet/commit/419ed82970f107019d15fd0e04d05ac49a58274d))
+* **deps:** update dependency nunit3testadapter to 6.2.0 ([f00d8a4](https://github.com/phi-ag/ifc-guid-dotnet/commit/f00d8a4747c9aa04430a07f4c267d69a44ee1940))
+
 ## [1.0.7](https://github.com/phi-ag/ifc-guid-dotnet/compare/v1.0.6...v1.0.7) (2026-03-13)
 
 
