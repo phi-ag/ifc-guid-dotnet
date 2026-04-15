@@ -1,5 +1,27 @@
 # Changelog
 
+## [1.0.8](https://github.com/phi-ag/ifc-guid-dotnet/compare/v1.0.7...v1.0.8) (2026-04-15)
+
+
+### Miscellaneous Chores
+
+* **deps:** update codecov/codecov-action action to v6 ([c0fff91](https://github.com/phi-ag/ifc-guid-dotnet/commit/c0fff918c9bdcdf2dc7f8f58f9fe20dc8834b5fe))
+* **deps:** update codecov/codecov-action digest to 1af5884 ([d61114e](https://github.com/phi-ag/ifc-guid-dotnet/commit/d61114ea5ced98f945dbb67bc9c40b4b9993c94b))
+* **deps:** update codecov/codecov-action digest to 75cd116 ([0c37d1e](https://github.com/phi-ag/ifc-guid-dotnet/commit/0c37d1eeadf15de880392a7c3c820760422ac22a))
+* **deps:** update dependency coverlet.collector to v8 ([a518472](https://github.com/phi-ag/ifc-guid-dotnet/commit/a5184722540478a8306b08f482be3b69f2ff62f3))
+* **deps:** update dependency cyclonedx to v6.1.0 ([419ed82](https://github.com/phi-ag/ifc-guid-dotnet/commit/419ed82970f107019d15fd0e04d05ac49a58274d))
+* **deps:** update dependency cyclonedx to v6.1.1 ([85e0164](https://github.com/phi-ag/ifc-guid-dotnet/commit/85e0164a3b8ee424706f1f2f717b8bf627fcff1b))
+* **deps:** update dependency dotnet-sdk to v10.0.202 ([83d9565](https://github.com/phi-ag/ifc-guid-dotnet/commit/83d9565b0b0941df5268164d11e1ffc7f5c1758c))
+* **deps:** update dependency microsoft.net.test.sdk to 18.4.0 ([bf6be3d](https://github.com/phi-ag/ifc-guid-dotnet/commit/bf6be3d8035ba7514a4554984d77987ea331422b))
+* **deps:** update dependency nunit3testadapter to 6.2.0 ([f00d8a4](https://github.com/phi-ag/ifc-guid-dotnet/commit/f00d8a4747c9aa04430a07f4c267d69a44ee1940))
+* **deps:** update dependency system.collections.immutable to 10.0.6 ([9e50ff4](https://github.com/phi-ag/ifc-guid-dotnet/commit/9e50ff404786e6946ec8390f691e2120b91a4e11))
+* **deps:** update googleapis/release-please-action digest to 5c625bf ([4847b7b](https://github.com/phi-ag/ifc-guid-dotnet/commit/4847b7b22d8b597550642bfdf308f77e1e49c6c1))
+
+
+### Tests
+
+* switch to mtp v2 ([a8e2c40](https://github.com/phi-ag/ifc-guid-dotnet/commit/a8e2c4034f93424eb1688ad055e79a8cca633a25))
+
 ## [1.0.7](https://github.com/phi-ag/ifc-guid-dotnet/compare/v1.0.6...v1.0.7) (2026-03-13)
 
 
