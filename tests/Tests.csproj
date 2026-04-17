@@ -11,7 +11,7 @@
     <EnableNUnitRunner>true</EnableNUnitRunner>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="coverlet.MTP" Version="8.0.1" />
+    <PackageReference Include="coverlet.MTP" Version="10.0.0" />
     <PackageReference Include="FsCheck" Version="3.3.2" Condition="'$(TargetFramework)' != 'net48'" />
     <PackageReference Include="FsCheck.NUnit" Version="3.3.2" Condition="'$(TargetFramework)' != 'net48'" />
     <PackageReference Include="JunitXml.TestLogger" Version="8.0.0" />
