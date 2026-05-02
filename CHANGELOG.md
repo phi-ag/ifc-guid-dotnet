@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.0.9](https://github.com/phi-ag/ifc-guid-dotnet/compare/v1.0.8...v1.0.9) (2026-05-02)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency cyclonedx to v6.2.0 ([66db242](https://github.com/phi-ag/ifc-guid-dotnet/commit/66db2429fa5b00447c699ffdff36e889f30c6f1f))
+* **deps:** update dependency microsoft.net.test.sdk to 18.5.1 ([c8eabab](https://github.com/phi-ag/ifc-guid-dotnet/commit/c8eababda5713c37143c10150637cdf004a9ac1c))
+* **deps:** update dependency nunit.analyzers to 4.13.0 ([3b7e935](https://github.com/phi-ag/ifc-guid-dotnet/commit/3b7e935100d8dfbe0352ba887e0b811dae655fcc))
+* **deps:** update fscheck to 3.3.3 ([f8c74e5](https://github.com/phi-ag/ifc-guid-dotnet/commit/f8c74e5376eb1efa55242263ccb4a0b77c9916ae))
+
 ## [1.0.8](https://github.com/phi-ag/ifc-guid-dotnet/compare/v1.0.7...v1.0.8) (2026-04-23)
 
 
