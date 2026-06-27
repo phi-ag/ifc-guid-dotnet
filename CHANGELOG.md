@@ -1,5 +1,31 @@
 # Changelog
 
+## [1.0.9](https://github.com/phi-ag/ifc-guid-dotnet/compare/v1.0.8...v1.0.9) (2026-06-27)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/attest digest to a1948c3 ([ec18ce7](https://github.com/phi-ag/ifc-guid-dotnet/commit/ec18ce78740a86965f902f32878cbe7c37b1a9b2))
+* **deps:** update actions/checkout digest to df4cb1c ([848c987](https://github.com/phi-ag/ifc-guid-dotnet/commit/848c9871002e5fe6b0f15a08917b5184e1510097))
+* **deps:** update actions/setup-dotnet digest to 26b0ec1 ([f9962e7](https://github.com/phi-ag/ifc-guid-dotnet/commit/f9962e71268cb9ab152404e929c375eb70dd94b0))
+* **deps:** update actions/setup-dotnet digest to 9a946fd ([559366b](https://github.com/phi-ag/ifc-guid-dotnet/commit/559366b8299ba3d11dcbf00a47c69619b8d5fc9c))
+* **deps:** update codecov/codecov-action digest to e79a696 ([7badf47](https://github.com/phi-ag/ifc-guid-dotnet/commit/7badf4730619d852bde2f5e99e967c08dd3bb257))
+* **deps:** update codecov/codecov-action digest to fb8b358 ([b98d9e5](https://github.com/phi-ag/ifc-guid-dotnet/commit/b98d9e523de1288be7b02281aa99b2a120270c59))
+* **deps:** update dependency coverlet.mtp to 10.0.1 ([ca9fb00](https://github.com/phi-ag/ifc-guid-dotnet/commit/ca9fb00370892abcf885da3d483a7d76f6eca80a))
+* **deps:** update dependency cyclonedx to v6.2.0 ([66db242](https://github.com/phi-ag/ifc-guid-dotnet/commit/66db2429fa5b00447c699ffdff36e889f30c6f1f))
+* **deps:** update dependency dotnet-sdk to v10.0.300 ([b8fd70f](https://github.com/phi-ag/ifc-guid-dotnet/commit/b8fd70f8da9f8a7f4c3d8cf463fed999a0356645))
+* **deps:** update dependency microsoft.net.test.sdk to 18.5.1 ([c8eabab](https://github.com/phi-ag/ifc-guid-dotnet/commit/c8eababda5713c37143c10150637cdf004a9ac1c))
+* **deps:** update dependency microsoft.net.test.sdk to 18.6.0 ([b7fa54f](https://github.com/phi-ag/ifc-guid-dotnet/commit/b7fa54fc42aabe9af722c1b7001c122cba707fe9))
+* **deps:** update dependency nunit to 4.6.0 ([7f1f925](https://github.com/phi-ag/ifc-guid-dotnet/commit/7f1f9250abf72fcb117e08cb26c5c9838e96181c))
+* **deps:** update dependency nunit to 4.6.1 ([d7f229b](https://github.com/phi-ag/ifc-guid-dotnet/commit/d7f229b3654563aed365a2e511f23e797bab1b58))
+* **deps:** update dependency nunit.analyzers to 4.13.0 ([3b7e935](https://github.com/phi-ag/ifc-guid-dotnet/commit/3b7e935100d8dfbe0352ba887e0b811dae655fcc))
+* **deps:** update dependency nunit.analyzers to 4.14.0 ([dfe7e3d](https://github.com/phi-ag/ifc-guid-dotnet/commit/dfe7e3dad032305c4b65db7fce33b214e0d790e4))
+* **deps:** update dependency system.collections.immutable to 10.0.8 ([f43914b](https://github.com/phi-ag/ifc-guid-dotnet/commit/f43914b42e2ec4b397dd54103a91c21033a75c99))
+* **deps:** update dotnet monorepo ([ee0888c](https://github.com/phi-ag/ifc-guid-dotnet/commit/ee0888c511213a9bb7dca95e4d3c89002ef4d59d))
+* **deps:** update dotnet.reproduciblebuilds to 2.0.5 ([996557a](https://github.com/phi-ag/ifc-guid-dotnet/commit/996557a7a39c1104ef522796f0b5adaa4cdac4f3))
+* **deps:** update fscheck to 3.3.3 ([f8c74e5](https://github.com/phi-ag/ifc-guid-dotnet/commit/f8c74e5376eb1efa55242263ccb4a0b77c9916ae))
+* **deps:** update vstest monorepo ([ee0e217](https://github.com/phi-ag/ifc-guid-dotnet/commit/ee0e217f568b86b2e72b1842ddee3988954d0818))
+
 ## [1.0.8](https://github.com/phi-ag/ifc-guid-dotnet/compare/v1.0.7...v1.0.8) (2026-04-23)
 
 
