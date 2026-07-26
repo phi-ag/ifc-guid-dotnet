@@ -12,8 +12,8 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="coverlet.MTP" Version="10.0.1" />
-    <PackageReference Include="FsCheck" Version="3.3.3" Condition="'$(TargetFramework)' != 'net48'" />
-    <PackageReference Include="FsCheck.NUnit" Version="3.3.3" Condition="'$(TargetFramework)' != 'net48'" />
+    <PackageReference Include="FsCheck" Version="3.3.4" Condition="'$(TargetFramework)' != 'net48'" />
+    <PackageReference Include="FsCheck.NUnit" Version="3.3.4" Condition="'$(TargetFramework)' != 'net48'" />
     <PackageReference Include="JunitXml.TestLogger" Version="8.0.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.8.1" />
     <PackageReference Include="NUnit" Version="4.6.1" />
