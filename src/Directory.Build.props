@@ -1,7 +1,7 @@
 <Project>
   <PropertyGroup>
     <PackageId>IfcGuid</PackageId>
-    <VersionPrefix>1.0.8</VersionPrefix>
+    <VersionPrefix>1.0.9</VersionPrefix>
     <Authors>Peter Hirn</Authors>
     <Company>phi.ag</Company>
     <Copyright>© $([System.DateTime]::Now.Year) $(Company)</Copyright>
